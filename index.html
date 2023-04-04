@@ -2,20 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+      name="viewport"
+    />
+    <title>home</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <div class="mainscreen">
-      <h1 class="header">
-        <span class="smalltitles">YOUR<br /></span
-        ><span class="coffee">COFFEE<br /></span>
-        <span class="smalltitles">FOR TODAY</span>
-      </h1>
-      <div class="weather">WEATHER</div>
-      <div class="mood">MOOD</div>
-      <div class="personality">PERSONALITY</div>
+    <!--pc-->
+    <div class="main pc"></div>
+
+    <!--mobile-->
+    <div class="main mobile">
+      <header>
+        <div class="font">YOUR</div>
+        <a href="./coffee.html" class="font active">COFFEE</a>
+        <div class="font">FOR</div>
+        <div class="font">TODAY</div>
+      </header>
+      <div class="nav">
+        <a href="weather.html">
+          WHERE
+          <img src="./img/ico.png" alt="" />
+        </a>
+        <a href="mood.html">
+          MOOD
+          <img src="./img/ico.png" alt="" />
+        </a>
+        <a href="personalty.html">
+          PERSONALITY
+          <img src="./img/ico.png" alt="" />
+        </a>
+      </div>
     </div>
   </body>
 </html>

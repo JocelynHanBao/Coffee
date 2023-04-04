@@ -1,0 +1,35 @@
+.transition {
+  cursor: pointer;
+  transition: all 0.24s;
+}
+header {
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #ffbf7e;
+  padding: 68px 0 36px;
+}
+main > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4px 12px;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+}
+main > div > div {
+  opacity: 0;
+}
+main > div .bg {
+  opacity: 1;
+  background-image: linear-gradient(
+    to right,
+    #e1aa8b 0%,
+    #bdb4d1 33%,
+    #7b8e85 66%,
+    #498080 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
